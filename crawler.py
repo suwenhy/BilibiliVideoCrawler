@@ -5,7 +5,8 @@ from lxml import etree
 
 
 def main():
-    url_ = 'https://www.bilibili.com/video/BV1jV411n7qa?p=6&spm_id_from=pageDriver'
+    #目标视频的url
+    url_ = 'https://www.bilibili.com/video/BV1ch411h7uw'
 
     # 构造请求头这里的cookies
     header_ = {
